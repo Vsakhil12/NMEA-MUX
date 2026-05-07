@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3a695827-e65e-42c9-a90d-722a256776a1")
+	(paper "A4")
+	(lib_symbols)
+	(text "NMEA MULTIPULXER "
+		(exclude_from_sim no)
+		(at 138.43 72.39 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8467da83-9817-48d5-92af-1d86efc9401f")
+	)
+	(sheet
+		(at 121.92 83.82)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07f97df2-81bb-4c57-93c0-fc76f4f91344")
+		(property "Sheetname" "NMEAOUTPUT"
+			(at 121.92 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NMEAOUTPUT.kicad_sch"
+			(at 121.92 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NMEAMUX"
+				(path "/3a695827-e65e-42c9-a90d-722a256776a1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 83.82)
+		(size 33.02 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "30685ab4-0a27-4c02-8021-56a893af6dcc")
+		(property "Sheetname" "NMEAINPUT (page 3)"
+			(at 86.36 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NMEAINPUT.kicad_sch"
+			(at 86.36 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NMEAMUX"
+				(path "/3a695827-e65e-42c9-a90d-722a256776a1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 83.82)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "42bc7bde-ee95-4578-b898-baa4aa8e6830")
+		(property "Sheetname" "ETHERNET"
+			(at 154.94 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernetnmea.kicad_sch"
+			(at 154.94 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NMEAMUX"
+				(path "/3a695827-e65e-42c9-a90d-722a256776a1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 83.82)
+		(size 39.37 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "63b59103-a48d-4f5b-a4bb-30a32c1a279e")
+		(property "Sheetname" "POWER"
+			(at 191.77 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 191.77 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NMEAMUX"
+				(path "/3a695827-e65e-42c9-a90d-722a256776a1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 83.82)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c195b04e-f1fa-4247-8ff4-e8ecdc15d141")
+		(property "Sheetname" "STM32H743ZIT6"
+			(at 49.53 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm.kicad_sch"
+			(at 49.53 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 49.53 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "NMEAMUX"
+				(path "/3a695827-e65e-42c9-a90d-722a256776a1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
